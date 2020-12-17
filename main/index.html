@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check If the Youtube Video Is Embaddable</title>
+    <style>
+        .container {
+            width: 560px;
+            padding: 20px;
+        }
+        #you-url {
+            padding: 20px;
+            border: 1px solid #f7f7f7;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="you-form">
+            <input id="you-url" placeholder="Enter Youtube Url Or Id">
+        </form>
+        <iframe id="you-iframe" width="560" height="315" src="https://www.youtube.com/embed/8nt3edWLgIg" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
